@@ -10,4 +10,17 @@ $(document).ready(function(){
     })
   }
   fitHeight();
+
+  let showNav = function() {
+    $(".mobileIcon").click(function(){
+      $("header").addClass("open");
+    });
+
+    $(".mobileTimes").click(function(){
+      $("header").removeClass("open");
+    });
+  }
+
+  showNav();
+
 });
