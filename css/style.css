@@ -72,6 +72,37 @@ h3 {
   background-attachment: fixed;
 }
 
+/* mobile icon style */
+.mobileIcon {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a43f49;
+  font-size: 20px;
+  display: none;
+}
+
+.mobileTimes {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  top: 0;
+  left: 0;
+  color: #a43f49;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
 /**************
  header style
  **************/
@@ -88,6 +119,7 @@ header {
   text-align: center;
   background: #a43f49;
   color: white;
+  transition: all 0.3s;
   /* padding: 10% 0 10% 0; */
 }
 
@@ -174,6 +206,11 @@ header .header_sns li a:hover {
 
 .header_cr span {
   font-size: 0.8rem;
+}
+
+.mobileIcon,
+.mobileTimes {
+  display: none;
 }
 
 /**************
@@ -327,4 +364,8 @@ header .header_sns li a:hover {
 .wiga__contents .wiga__content:hover h1,
 .wiga__contents .wiga__content:hover p {
   color: black;
+}
+
+.wiga__contents {
+  border-bottom: 2px solid gray;
 }

@@ -35,7 +35,12 @@
 
 @media screen and (max-width: 1024px) {
   header {
-    left: -25%;
+    left: -100%;
+    width: 40%;
+  }
+
+  #header.open {
+    left: 0;
   }
 
   #contentsWrap {
@@ -43,29 +48,113 @@
     margin-right: 5%;
     padding-left: 0%;
   }
+
+  .mobileIcon {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .mobileTimes {
+    display: flex;
+    cursor: pointer;
+  }
+
+  header img {
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 740px) {
+  header {
+    left: -100%;
+    width: 60%;
+  }
+
+  #header.open {
+    left: 0;
+  }
+
+  header h1 {
+    padding: 0;
+  }
+
+  .header_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  header nav li a {
+    padding: 20px;
+  }
+
+  .mobileIcon {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .mobileTimes {
+    display: flex;
+    cursor: pointer;
+  }
+
   .commonTit__left {
-    width: 100%;
     flex-direction: column;
     align-items: center;
   }
 
-  .commonTit {
-    padding: 10% 5% 0 5%;
-  }
-
-  .commonTit__pic {
-    width: 80%;
-  }
-
+  .commonTit__pic,
   .commonTit__content {
     width: 80%;
   }
+}
 
-  .commonTit__content {
+@media screen and (max-width: 480px) {
+  header {
+    left: -100%;
+    width: 70%;
+  }
+
+  #header.open {
+    left: 0;
+  }
+
+  header h1 {
     padding: 0;
+  }
+
+  .header_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+  header nav li a {
+    padding: 20px;
+  }
+
+  .mobileIcon {
+    display: flex;
+    cursor: pointer;
+  }
+
+  .mobileTimes {
+    display: flex;
+    cursor: pointer;
   }
 
   .wiga__contents .wiga__content-first {
@@ -73,7 +162,7 @@
   }
 
   .wiga__contents .wiga__content {
-    width: 80%;
-    margin: 5px auto;
+    width: 100%;
+    margin: 2px auto;
   }
 }
