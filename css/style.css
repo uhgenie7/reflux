@@ -56,10 +56,6 @@ h3 {
   font-weight: 700;
 }
 
-.commonTit p {
-  margin-bottom: 60px;
-}
-
 .line {
   display: inline-block;
   width: 60px;
@@ -193,13 +189,17 @@ header .header_sns li a:hover {
   height: auto;
   float: right;
   margin-right: 10%;
-  padding: 50px 0 0 5%;
+  padding-left: 5%;
 }
 
 #contentsWrap .about {
   width: 100%;
   height: auto;
   text-align: center;
+}
+
+.commonTit {
+  padding: 5% 5% 0 5%;
 }
 
 /* picture */
@@ -248,4 +248,83 @@ header .header_sns li a:hover {
 .commonTit__content button:hover {
   background: #a43f49;
   color: white;
+}
+
+.commonTit__left {
+  padding: 50px 0;
+  border-bottom: 2px solid gray;
+}
+
+/* wiga content  */
+
+.wiga__contents {
+  padding: 50px 0;
+}
+
+.wiga__contents .wiga__content-first {
+  display: flex;
+}
+
+.wiga__contents .wiga__content {
+  width: 50%;
+  height: auto;
+  text-align: left;
+  padding: 3rem;
+  margin: 0.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  transition: all 300ms;
+}
+
+.wiga__content-img1 {
+  width: 70px;
+  height: 70px;
+  background: url(../images/first-white-icon.png) no-repeat;
+}
+
+.wiga__content-img2 {
+  width: 70px;
+  height: 70px;
+  background: url(../images/second-white-icon.png) no-repeat;
+}
+
+.wiga__content-img3 {
+  width: 70px;
+  height: 70px;
+  background: url(../images/third-white-icon.png) no-repeat;
+}
+
+.wiga__content-img4 {
+  width: 70px;
+  height: 70px;
+  background: url(../images/fourth-white-icon.png) no-repeat;
+}
+
+.wiga__contents .wiga__content p {
+  color: white;
+  margin-top: 10px;
+}
+
+.wiga__contents .wiga__content:hover .wiga__content-img1 {
+  background: url(../images/first-main-icon.png) no-repeat;
+}
+
+.wiga__contents .wiga__content:hover .wiga__content-img2 {
+  background: url(../images/second-main-icon.png) no-repeat;
+}
+
+.wiga__contents .wiga__content:hover .wiga__content-img3 {
+  background: url(../images/third-main-icon.png) no-repeat;
+}
+
+.wiga__contents .wiga__content:hover .wiga__content-img4 {
+  background: url(../images/fourth-main-icon.png) no-repeat;
+}
+
+.wiga__contents .wiga__content:hover {
+  background: white;
+}
+
+.wiga__contents .wiga__content:hover h1,
+.wiga__contents .wiga__content:hover p {
+  color: black;
 }

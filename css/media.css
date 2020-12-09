@@ -1,0 +1,79 @@
+@media screen and (max-width: 1680px) {
+  header {
+    left: 5%;
+  }
+
+  header .header_sns li {
+    margin: 0 1px;
+  }
+
+  #contentsWrap {
+    width: 70%;
+    margin-right: 5%;
+  }
+
+  .commonTit__content {
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  header {
+    width: 25%;
+    left: 0%;
+  }
+
+  #contentsWrap {
+    width: 70%;
+    margin-right: 5%;
+  }
+
+  .commonTit__content {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    left: -25%;
+  }
+
+  #contentsWrap {
+    width: 90%;
+    margin-right: 5%;
+    padding-left: 0%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .commonTit__left {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .commonTit {
+    padding: 10% 5% 0 5%;
+  }
+
+  .commonTit__pic {
+    width: 80%;
+  }
+
+  .commonTit__content {
+    width: 80%;
+  }
+
+  .commonTit__content {
+    padding: 0;
+  }
+
+  .wiga__contents .wiga__content-first {
+    display: block;
+  }
+
+  .wiga__contents .wiga__content {
+    width: 80%;
+    margin: 5px auto;
+  }
+}
