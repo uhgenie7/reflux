@@ -369,3 +369,49 @@ header .header_sns li a:hover {
 .wiga__contents {
   border-bottom: 2px solid gray;
 }
+
+/* work contents */
+
+.work__contents {
+  margin-top: 30px;
+}
+
+.work__contents button {
+  border: none;
+  background: transparent;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 5px;
+  cursor: pointer;
+  padding-bottom: 3px;
+  outline: 0;
+}
+
+.work__contents button.active {
+  color: #a43f49;
+  border-bottom: 2px solid #a43f49;
+}
+
+.work__contents-panel {
+  width: 100%;
+  height: auto;
+  margin: 20px 0;
+  padding-bottom: 80px;
+  border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+}
+
+.work__imgs {
+  width: 30%;
+  height: auto;
+  float: left;
+  margin: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.work__contents-panel img {
+  width: 100%;
+  border-radius: 5px;
+}
