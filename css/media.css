@@ -114,6 +114,26 @@
   .commonTit__content {
     width: 80%;
   }
+
+  .wiga__contents .wiga__content-first {
+    display: block;
+  }
+
+  .wiga__contents .wiga__content {
+    width: 100%;
+    margin: 2px auto;
+  }
+
+  /* my work */
+
+  .work__imgs {
+    width: 45%;
+    height: auto;
+    float: left;
+    margin: 10px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid gray;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -164,5 +184,27 @@
   .wiga__contents .wiga__content {
     width: 100%;
     margin: 2px auto;
+  }
+
+  /* my work */
+
+  .work__contents-panel {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .work__imgs {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    float: 0;
+    padding-bottom: 40px;
+    border-bottom: 1px solid transparent;
+  }
+
+  .work__contents-panel img {
+    width: 100%;
+    border-radius: 10px;
+    margin: auto;
   }
 }
