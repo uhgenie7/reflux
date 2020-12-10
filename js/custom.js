@@ -24,3 +24,14 @@ $(document).ready(function(){
   showNav();
 
 });
+let btn = document.querySelectorAll('.work__content');
+function clickMenuHandler(){
+  let activeMenu = document.querySelector(".active");
+  activeMenu.classList.remove("active");
+  this.classList.add("active");
+
+}
+
+for(let i = 0; i<btn.length; i++) {
+  btn[i].addEventListener("click", clickMenuHandler);
+}
