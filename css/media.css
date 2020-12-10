@@ -62,9 +62,31 @@
   header img {
     margin-top: 30px;
   }
+
+  .wiga__contents .wiga__content p span {
+    display: none;
+  }
+
+  /* mywork */
+  .work__contents-panel .work__imgs .hoverBox {
+    transform: none;
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.4);
+  }
+
+  .work__contents-panel .work__imgs .hoverContents {
+    transform: none;
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 740px) {
+  #contentsWrap {
+    width: 90%;
+    margin-right: 6%;
+    padding-left: 0%;
+  }
+
   header {
     left: -100%;
     width: 60%;
@@ -124,6 +146,10 @@
     margin: 2px auto;
   }
 
+  .wiga__contents .wiga__content p span {
+    display: none;
+  }
+
   /* my work */
 
   .work__imgs {
@@ -134,20 +160,56 @@
     padding-bottom: 60px;
     border-bottom: 1px solid gray;
   }
+
+  .work__contents-panel .work__imgs .hoverBox {
+    width: 45%;
+    height: auto;
+  }
+
+  .work__imgs .hoverContents .fa {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 60px;
+  }
+
+  .work__imgs .hoverContents h1,
+  .work__imgs .hoverContents p {
+    display: none;
+  }
+
+  /* contact */
+  .contact_form p {
+    width: 100%;
+    float: 0;
+  }
+
+  .contact_form p:first-child {
+    padding-right: 0px;
+  }
+
+  .contact_form p:last-child {
+    padding-left: 0px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   header {
     left: -100%;
     width: 70%;
+    min-height: 568px;
   }
 
-  #header.open {
+  header.open {
     left: 0;
   }
 
   header h1 {
     padding: 0;
+    font-size: 1.5rem;
+  }
+
+  header h3 {
+    font-size: 1rem;
   }
 
   .header_title {
@@ -160,11 +222,16 @@
   #header img {
     width: 100px;
     height: 100px;
-    margin-top: 40px;
+    margin-top: 50px;
   }
 
   header nav li a {
-    padding: 20px;
+    padding: 10px;
+  }
+
+  header .header_sns li {
+    width: 25px;
+    height: 25px;
   }
 
   .mobileIcon {
@@ -184,6 +251,11 @@
   .wiga__contents .wiga__content {
     width: 100%;
     margin: 2px auto;
+  }
+
+  .menu .social-network ul li a {
+    width: 25px;
+    height: 25px;
   }
 
   /* my work */
@@ -206,5 +278,20 @@
     width: 100%;
     border-radius: 10px;
     margin: auto;
+  }
+  .work__imgs .hoverContents .fa {
+    width: 30px;
+    height: 30px;
+  }
+
+  form {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  }
+
+  .contact_form p {
+    padding-bottom: 20px;
   }
 }
