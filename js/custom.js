@@ -5,7 +5,7 @@ $(document).ready(function(){
     $(".aboutTxt").height(imgHeight);
 
     $(window).resize(function(){
-      let imgHeight = $(".aboutImg").outerHeight();
+      let imgHegight = $(".aboutImg").outerHeight();
     $(".aboutTxt").height(imgHeight);
     })
   }
